@@ -45,6 +45,10 @@ header {
     display: inline-block;
 }
 
+header.conteudo {
+    min-height: 50px !important;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -115,6 +119,8 @@ a.font-button {
     text-align: center;
 }
 
+
+
 .content {
     padding: 100px 0;
 }
@@ -124,9 +130,15 @@ a.font-button {
     background-color: #092327;
 }
 
+
 .content-3 {
 	padding: 20px 0 40px;
 	text-align: center;
+}
+
+.inner-content {
+    padding: 30px;
+    letter-spacing: 1px;
 }
 
 .promo,
