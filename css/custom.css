@@ -36,6 +36,7 @@ header {
     -o-background-size: cover;
 }
 
+
 #logo {
     max-width: 8%;
 }
@@ -63,6 +64,11 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
+}
+
+a.font-button {
+    color: #e5e5e5 !important;
+    padding-right: 0 !important;
 }
 
 @media(min-width:768px) {
