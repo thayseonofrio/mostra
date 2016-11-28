@@ -41,12 +41,12 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#">Início</a>
+                    <li>
+                        <a href="index.html">Início</a>
                     </li>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MostraPOA <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MostraPOA <span class="caret"></span></a>
                         <ul class="dropdown-menu" aria-labelledby="mostra">
                             <li><a href="regulamento.html">Regulamento</a></li>
                             <li><a href="cronograma.html">Cronograma</a></li>
@@ -86,8 +86,8 @@
                     <li class="acessibilidade">
                         <a href="javascript:diminuir();" class="font-button">A-</a>
                     </li>
-                    <li class="acessibilidade"> 
-                        <a href="javascript:normal();" class="font-button">A</a> 
+                    <li class="acessibilidade">
+                        <a href="javascript:normal();" class="font-button">A</a>
                     </li>
 
                 </ul>
@@ -96,59 +96,39 @@
         </div>
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>MOSTRAPOA</h1>
-                <p>18º MOSTRA DE PESQUISA, ENSINO E EXTENSÃO</p>
 
-
-            </div>
-            
-        </div>
-
-    </header>
-
-    <section class="intro">
-        <div class="container">
+    <header class="conteudo">
+        <div class="container" style="padding-top: 50px">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <span class="glyphicon glyphicon-asterisk" style="font-size: 60px"></span>
-                    <h2 class="section-heading">Integração entre ciência, tecnologia e cultura</h2>
-                    <p class="text-light"> O objetivo geral do evento é contribuir para a difusão do conhecimento produzido nas dimensões do ensino,
-                        da pesquisa e da extensão no âmbito das Instituições de Ensino Técnico, Superior e Pós-Graduação.
-                        </p>
+
+                    <h2> <span class="glyphicon glyphicon-user" style="font-size: 25px"></span> Inscrições </h2>
+
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="content">
-        <div class="container">
-            <div class="row">
 
-                <div class="col-sm-6">
-                    <h2 class="section-header">Palestrantes</h2>
-                    <p class="lead text-muted"> A Mostra Poa contará com palestras de especialistas nas mais diversas áreas, cobrindo assuntos como tecnologia,
-                        inovação e educação.</p>
-                    <a href="palestrantes.html" class="btn btn-primary btn-lg">Conheça os palestrantes.</a>
-                </div>
-                <div class="col-sm-6">
-                    <img class="img-responsive img-thumbnail center-block" src="images/mostrapoa1.jpg" alt="Palestra na Mostra POA">
-                </div>
+    <div class="inner-content">
+        <h2> Ouvintes e Voluntários </h2>
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#formularioInscricao" aria-expanded="false" aria-controls="formularioInscricao">
+        Inscreva-se como ouvinte ou voluntário utlizando este formulário </a>
+        <div class="collapse" id="formularioInscricao">
+            <div class="well">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewDWe2dmprD8GfoFNhOJjcutRA0fILgZQBq5QdBr689gyPvA/viewform?embedded=true"
+                    width="100%" height="500" marginheight="0" frameborder="0" marginwidth="0"></iframe>
             </div>
         </div>
-    </section>
+        <h2> Inscrições no Sistema
+            <h2>
+                <p> Atenção Autores e Avalaiadores: a inscrição no evento deverá ser realizada através do site de gerenciamento
+                    de conferências do Campus PoA - <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account"
+                        target="_blank"> PoaConf</a>, observando o preenchimento correto dos campos apresentados. </p>
+                <img class="center-block img-responsive img-rounded" src="images/inscricoes.jpg" alt="Imagem com instruções para cadastro no PoaConf">
+    </div>
 
 
-    <section class="content content-2">
-        <div class="container">
-            <h2 class="section-header"><span class=" glyphicon glyphicon-education"></span> Participe </h2>
-            <p class="lead text-muted">Você pode participar do evento como ouvinte e voluntário, ou ainda inscrever-se como autor e avaliador.</p>
-            <a href="inscricoes.html" id="btn-participe" class="btn btn-primary btn-lg center-block">Saiba Mais</a>
-        </div>
-        </div>
-    </section>
     <hr>
     <footer class="page-footer">
 

@@ -1,3 +1,10 @@
+/******************CONFIGURAÇÕES GERAIS******************/
+
+/** Para a tabela responsiva funcionar no Firefox: **/
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
 html,
 body {
     width: 100%;
@@ -6,7 +13,8 @@ body {
 }
 
 a {
-    color: #02b875;
+    color: #ad343c;
+    text-decoration: none;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -14,13 +22,36 @@ a {
 
 a:hover,
 a:focus {
-    color: #018051;
+    color: #8F141C;
+    text-decoration: none;
+
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
 }
+
+a.font-button {
+    color: #e5e5e5 !important;
+    padding-right: 0 !important;
+}
+
+.texto-destacado {
+    font-weight: bold;
+}
+
+.texto-vermelho {
+    color: #ad343c;
+    font-weight: 600;
+}
+
+.texto-verde {
+    color: #02b875;
+    font-weight: 600;
+}
+
+/******************HEADER******************/
 
 header {
     position: relative;
@@ -46,7 +77,7 @@ header {
 }
 
 header.conteudo {
-    min-height: 50px !important;
+    min-height: 150px !important;
 }
 
 header .header-content {
@@ -70,10 +101,8 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-a.font-button {
-    color: #e5e5e5 !important;
-    padding-right: 0 !important;
-}
+
+/******************RESPONSIVIDADE******************/
 
 @media(min-width:768px) {
     header {
@@ -111,6 +140,8 @@ a.font-button {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+/******************CONTEÚDO******************/
 
 .intro {
 	color: #fff;
@@ -188,6 +219,9 @@ a.font-button {
 	background-size: cover;
 	background-position: 50% 50%;
 	}
+
+
+/******************FOOTER******************/
 
 .page-footer {
 	text-align: center;

@@ -1,4 +1,6 @@
-// Offset for Site Navigation
+
+//Efeito da barra de navegação
+
 $('#siteNav').affix({
 	offset: {
 		top: 100
@@ -8,6 +10,9 @@ $('#siteNav').affix({
 var min=8;
 var max=24;
 
+
+
+// Acessibilidade
 
 $(document).ready(function() {
 	var h1Original = "100px";
